@@ -62,11 +62,71 @@ Web标准由W3C组织和其他标准化组织制定的一系列标准的集合�
 
 Web最佳方案为：结构、表现、行为相互分离。
 
-[^]: 下文于 2020.12.11 编写
+### (5) 开发环境
+
+本文基于VScode开发环境编写
+
+**安装扩展：**
+
+open in browser
+
+Chinese (Simplified) Language Pack for Visual Studio Code（英文大佬忽略）
+
+**浏览程序：**
+
+右键 + open in default browse
 
 ## 二. HTML
 
-(1)语法规范
+### (1) 语法规范
+
+1.标签都要放在< > 之中，其中包含着关键词
+
+2.标签一般成对出现叫双标签 <html>（开始标签） </html>（结束标签，多一个**反斜杠**）
+
+3.特殊的单标签，一般单独出现，如<br />，在文字后加**空格**和**反斜杠**，此类非常少。
 
 
+
+```html
+<html> 
+   <head></head>
+   <body></body>
+</html>
+
+<br />
+```
+
+### (2) 标签关系
+
+包含关系
+
+```html
+<head>
+	<title></title>
+</head>
+```
+
+并列关系
+
+```html
+<head></head>
+<title></title>
+```
+
+### (3) html基本结构标签
+
+```html
+<html> <!--根标签-->
+   <head>
+       <title>lsy_self_learning</title><!--头部标题-->
+   </head><!--头部标签-->
+   <body>
+       lsy handsome <!--文章主体-->
+   </body><!--文章主体标签-->
+</html>
+<!--在vscode中输入“！”按下Tab键就可以导入基本骨架-->
+```
+
+[^]: 下文于 2020.12.11 编写
 
