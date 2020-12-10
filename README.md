@@ -68,13 +68,13 @@ Web最佳方案为：结构、表现、行为相互分离。
 
 **安装扩展：**
 
-open in browser
+open in browser 用于浏览器打开html文件
 
-Chinese (Simplified) Language Pack for Visual Studio Code（英文大佬忽略）
+Chinese (Simplified) Language Pack for Visual Studio Code 中文包（英文大佬忽略）
 
-**浏览程序：**
+Auto Rename Tag 自动重命名配对的HTML/XML标签
 
-右键 + open in default browse
+CSS Peek 追踪至样式
 
 ## 二. HTML
 
