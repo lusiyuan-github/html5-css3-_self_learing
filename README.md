@@ -128,5 +128,25 @@ CSS Peek 追踪至样式
 <!--在vscode中输入“！”按下Tab键就可以导入基本骨架-->
 ```
 
-[^]: 下文于 2020.12.11 编写
+[^]: 下文于 2020.12.14 编写
 
+(4)vscode直接生成的基本结构标签
+
+```html
+<!DOCTYPE html> <!--文档类型说明，使用何种html版本显示网页，不属于html标签，本句为最新html版本声明-->
+<html lang="en"><!--language = English用于定义当前文档语言，zh—CN为中文，只是定义，非强求文本内容中、英文-->
+<head>
+    <meta charset="UTF-8"><!--定义字符集-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+
+![image-20201214203039399](C:\Users\卢思远\AppData\Roaming\Typora\typora-user-images\image-20201214203039399.png)
+
+<html lang="en">可以提示浏览器是否翻译
