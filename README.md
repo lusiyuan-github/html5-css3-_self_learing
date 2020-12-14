@@ -130,14 +130,15 @@ CSS Peek 追踪至样式
 
 [^]: 下文于 2020.12.14 编写
 
-(4)vscode直接生成的基本结构标签
+### (4) vscode直接生成的基本结构标签
 
 ```html
-<!DOCTYPE html> <!--文档类型说明，使用何种html版本显示网页，不属于html标签，本句为最新html版本声明-->
-<html lang="en"><!--language = English用于定义当前文档语言，zh—CN为中文，只是定义，非强求文本内容中、英文-->
+<!DOCTYPE html> 
+<!--文档类型说明，使用何种html版本显示网页，不属于html标签，本句为最新html版本声明-->
+<html lang="en">
+<!--language = English用于定义当前文档语言，zh—CN为中文，只是定义，非强求文本内容中、英文-->
 <head>
-    <meta charset="UTF-8"><!--定义字符集-->
-    
+    <meta charset="UTF-8"><!--定义字符集-->  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -150,3 +151,21 @@ CSS Peek 追踪至样式
 ![image-20201214203039399](C:\Users\卢思远\AppData\Roaming\Typora\typora-user-images\image-20201214203039399.png)
 
 <html lang="en">可以提示浏览器是否翻译
+
+### (5) html常用标签
+
+#### 1. 标题标签
+
+html提供六个等级的网页标签
+
+```html
+    <h1>标题标签</h1>
+    <h1>标题一共六级选,</h1>
+    <h2>文字加粗一行显。</h2>
+    <h3>由大到小依次减，</h3>
+    <h4>从重到轻随之变。</h4>
+    <h5>语法规范书写后，</h5>
+    <h6>具体效果刷新见。</h6>
+    　　        ------摘自pink老师
+```
+
