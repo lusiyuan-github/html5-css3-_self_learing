@@ -269,14 +269,24 @@ href="跳转目标" 时，若目标未确定，可以写成href="#"
 
 若跳转目标为文件或压缩包，可以下载文件或压缩包
 
-若跳转目标为锚点信息（在同一页面，用于快速定位）设置属性值为href = "#名字"，配合标题标签，将标题标签写入属性id = 名字，可以快速定位
+若跳转目标为锚点链接（在同一页面，用于快速定位）设置属性值为href = "#名字"，配合标题标签，将标题标签写入属性id = 名字，可以快速定位
 
 ```html
 <a href="#one"></a>
 <h3 id="one"></h3>
 ```
 
+#### 7. 注释标签、特殊字符
 
+注释标签快捷键为ctrl + l
+
+其他特殊字符查表
+
+![img](https://img-blog.csdnimg.cn/20190316220926880.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjM1MDIzNw==,size_16,color_FFFFFF,t_70)
+
+```html
+<!--注释标签-->
+```
 
 
 
